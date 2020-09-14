@@ -14,8 +14,6 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']))
        $res= $query->execute([$name,$email,$phone]);
        print_r($res);
        if($res){
-
-
         echo true;
        }
 
